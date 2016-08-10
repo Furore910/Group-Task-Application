@@ -10,8 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var school:String = "Primary Children"
-    var Lachlan:String = "I'm Sick!"
     
     override func viewDidLoad() {
         super.viewDidLoad()
