@@ -17,35 +17,40 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="small logo" id="N0W-Lm-eNg">
-                                <rect key="frame" x="153" y="0.0" width="108" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9SM-Sq-PJ1">
-                                <rect key="frame" x="-25" y="61" width="262" height="161"/>
+                                <rect key="frame" x="-25" y="93" width="262" height="161"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="addition"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Uhf-sy-04f">
-                                <rect key="frame" x="177" y="61" width="262" height="161"/>
+                                <rect key="frame" x="177" y="93" width="262" height="161"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="subtraction"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="rf9-gf-Ece">
-                                <rect key="frame" x="-25" y="218" width="262" height="161"/>
+                                <rect key="frame" x="-25" y="250" width="262" height="161"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="multiplication"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wT3-ZW-pXj">
-                                <rect key="frame" x="177" y="218" width="262" height="161"/>
+                                <rect key="frame" x="177" y="250" width="262" height="161"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="division"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="EEq-5x-oxW">
-                                <rect key="frame" x="2" y="366" width="408" height="161"/>
+                                <rect key="frame" x="2" y="398" width="408" height="161"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="quizbutton"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="c2v-jD-yvJ">
+                                <rect key="frame" x="2" y="542" width="408" height="161"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="helpbutton"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="small logo" id="N0W-Lm-eNg">
+                                <rect key="frame" x="126" y="0.0" width="163" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -60,6 +65,7 @@
         <image name="addition" width="262" height="161"/>
         <image name="background" width="375" height="667"/>
         <image name="division" width="262" height="161"/>
+        <image name="helpbutton" width="432" height="144"/>
         <image name="multiplication" width="262" height="161"/>
         <image name="quizbutton" width="432" height="144"/>
         <image name="small logo" width="100" height="50"/>
